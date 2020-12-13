@@ -1,3 +1,6 @@
+/**
+ * Класс, который принимае в себя объект с данными по конкретной паре.
+ */
 package ftx.ivvasch.demo;
 
 public class DataTicker {
