@@ -1,5 +1,5 @@
 /**
- *
+ * Класс-клиент, в котором задаются основные переменные для работы с сокетом.
  */
 package ftx.ivvasch.demo;
 import org.springframework.web.socket.WebSocketHttpHeaders;
@@ -14,7 +14,7 @@ public class MyFtxClient {
 
     public static final String WSS_FTX_COM_WS = "wss://ftx.com/ws/";
     private WebSocketSession clientSession;
-    WebSocketClient webSocketClient;
+    private WebSocketClient webSocketClient;
 
     public MyFtxClient() {
         webSocketClient = new StandardWebSocketClient();

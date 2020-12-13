@@ -1,3 +1,7 @@
+/**
+ * Класс хендлер, который проверяет открыта ли сессия, подписался ли клиент на обновление и передает в парсер строку
+ * для парсинга.
+ */
 package ftx.ivvasch.demo;
 
 import ftx.ivvasch.demo.parser.JacksonDataBind;
