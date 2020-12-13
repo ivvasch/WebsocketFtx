@@ -50,8 +50,12 @@ public class DataTicker {
     @Override
     public String toString() {
         return "DataTicker{" +
-                "ask:'" + ask + '\'' +
-                ", bid:'" + bid + '\'' +
+                "bid='" + bid + '\'' +
+                ", ask='" + ask + '\'' +
+                ", bidSize='" + bidSize + '\'' +
+                ", askSize='" + askSize + '\'' +
+                ", last='" + last + '\'' +
+                ", time='" + time + '\'' +
                 '}';
     }
 }
